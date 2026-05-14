@@ -1,0 +1,137 @@
+{
+  "pet_type": "cat",
+  "appearance": {
+    "color_palette": [
+      {
+        "rgb": [
+          29,
+          120,
+          198
+        ],
+        "hex": "#1d78c6",
+        "ratio": 0.7573,
+        "name": "blue"
+      },
+      {
+        "rgb": [
+          39,
+          129,
+          199
+        ],
+        "hex": "#2781c7",
+        "ratio": 0.1934,
+        "name": "blue"
+      },
+      {
+        "rgb": [
+          53,
+          110,
+          161
+        ],
+        "hex": "#356ea1",
+        "ratio": 0.0191,
+        "name": "gray"
+      },
+      {
+        "rgb": [
+          21,
+          100,
+          175
+        ],
+        "hex": "#1564af",
+        "ratio": 0.0173,
+        "name": "blue"
+      },
+      {
+        "rgb": [
+          155,
+          185,
+          212
+        ],
+        "hex": "#9bb9d4",
+        "ratio": 0.0129,
+        "name": "blue"
+      }
+    ],
+    "color_pattern": {
+      "type": "unknown",
+      "inference_method": "rule-based: color_entropy + palette_analysis"
+    },
+    "primary_colors": [
+      "blue",
+      "gray"
+    ],
+    "body_geometry": {
+      "area_px": 32143.5,
+      "aspect_ratio": 1.173,
+      "circularity": 0.74,
+      "solidity": 0.954,
+      "extent": 0.769,
+      "body_angle": -57.1,
+      "perimeter": 738.8,
+      "bounding_rect": [
+        130,
+        101,
+        242,
+        201
+      ]
+    },
+    "body_size_estimate": "medium"
+  },
+  "breed": {
+    "candidates": [
+      {
+        "name": "Scottish Fold",
+        "confidence": 0.6
+      }
+    ],
+    "inference_method": "rule-based: color+ear+shape matching table",
+    "note": "Breed inference is based on surface visual features only. It is an estimate, not a genetic test result."
+  },
+  "face": {
+    "head_shape": {
+      "shape": "wedge",
+      "confidence": 1.0
+    },
+    "ears": {
+      "tips_detected": 2,
+      "ear_type": "folded",
+      "ear_spread_ratio": 0.316
+    },
+    "eyes_detected": true,
+    "face_symmetry": 0.797
+  },
+  "pose": {
+    "pose_type": "curled_up",
+    "pose_confidence": 0.769,
+    "body_angle": -57.1,
+    "inference_method": "rule-based: aspect_ratio + extent + body_angle"
+  },
+  "action_tendency": {
+    "state": "resting",
+    "confidence": 0.9,
+    "inference_method": "rule-based: pose_type + extent_range",
+    "evidence": [
+      "pose=curled_up",
+      "extent=0.77",
+      "curled posture → resting state"
+    ]
+  },
+  "confidence": {
+    "overall": 0.861,
+    "segmentation_quality": 0.913,
+    "color_extraction": 0.761,
+    "pose_estimation": 0.769,
+    "face_analysis": 1.0
+  },
+  "meta": {
+    "timestamp": "2026-05-14T18:11:52.638359",
+    "image_size": [
+      500,
+      400
+    ],
+    "processing_time_ms": 94.5,
+    "pipeline_version": "1.0.0",
+    "commercial_safe": true
+  }
+}
